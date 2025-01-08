@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Job Application</title>
+    <link
+      rel="shortcut icon"
+      href="C:\Users\Admin\Documents\project\Assignments\Images\deutsch.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <fieldset
+      style="
+        width: 800px;
+        height: 1000px;
+        margin: 0 auto;
+        background-color: rgb(255, 246, 246);
+      "
+    >
+      <legend></legend>
+      <h1 style="text-align: center">Job Application</h1>
+      <fieldset style="width: 150px; height: 400px; float: right">
+        <legend></legend>
+        <button style="width: 200px; height: 200px">
+          <label for="profile"> Upload Your profile Picture</label>
+          <input type="file" id="profile" value="profile" />
+        </button>
+        <br />
+        <br />
+        <label for="name">Name:</label>
+        <input type="text" id="name" required="required" />
+        <br />
+        <br />
+        <label for="father">Father Name:</label>
+        <input type="text" id="father" required="required" />
+        <br />
+        <br />
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" required="required" />
+      </fieldset>
+      <h3>Contact Information</h3>
+      <table border="1px" style="text-align: center; background-color: #c3c3f5">
+        <th colspan="2">Contact Information</th>
+        <tr>
+          <td>
+            <strong><label for="Phone">Phone</label></strong> <br />
+            <input type="number" id="Phone" required="required" />
+          </td>
+          <td>
+            <strong><label for="Adress">Adress</label></strong> <br />
+            <input type="text" id="Adress" required="required" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong><label for="email">email</label></strong> <br />
+            <input type="email" id="email" required="required" />
+          </td>
+          <td>
+            <strong><label for="Website url">Website url</label></strong> <br />
+            <input type="url" id="Website url" required="required" />
+          </td>
+        </tr>
+      </table>
+      <!-- Field Choosing Area -->
+      <h3>Field</h3>
+      <label for="field">Choose a Field</label>
+      <select>
+        <option value="marketter">Marketter</option>
+        <option value="client">Client Management</option>
+        <option value="web">Web devoloper</option>
+        <option value="Bloog">Blogger</option>
+      </select>
+      <!-- Section for Cover Latter  -->
+      <h3><label for="Cover latter">Cover latter</label></h3>
+      <input
+        style="width: 400px; height: 200px"
+        type="text"
+        id="Cover latter"
+      />
+      <h3><label for="work expierience">Work Expierience</label></h3>
+      <input
+        style="width: 400px; height: 200px"
+        type="text"
+        id="work expierience"
+      />
+ <!--  Submit buttton Area -->
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+        <label for="submit"></label>
+      <input style="width: 250px; height: 40px; background-color: rgb(180, 180, 243); border-radius: 4ch;" type="submit">
+    </fieldset>
+
+  </body>
+</html>
